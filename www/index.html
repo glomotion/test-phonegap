@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>Ballet collector cards app work</title>
+
+    <link href='//fonts.googleapis.com/css?family=Roboto:300italic,400italic,400,700,800,600,300|Vollkorn:400,700' rel='stylesheet' type='text/css'>
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+    <link href="css/app.css" rel="stylesheet">
+
+</head>
+
+<body class="home">
+
+    <hgroup class="drag-functionality-area" id="pull-down-area">
+        <h4 class="cancel">cancel</h4>
+        <h2><strong></strong></h2>
+        <h1>Waiting for a card</h1>
+    </hgroup>
+    
+    <section class="screen" id="splash">
+        
+    </section>  
+
+    <section class="screen" id="home">
+        
+        <header class="app-header">
+            <a href="#" class="menu-btn"></a>
+            <h1>collector cards</h1>
+        </header>       
+        
+        <div id="cards-listing">
+            <div id="scroller">
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="screen" id="card-details">
+
+    </section>  
+    
+    
+    <script src="phonegap.js"></script>
+
+    <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/hammer.js"></script>
+    <script src="js/jquery.stacker.js"></script>
+    <script src="js/iscroll-lite.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        app.initialize();
+        // var pulldown = new PullDown("#home","#pull-down-area");
+        // pulldown.init();
+        // $('#scroller article').stacker();
+        // var myScroll = new IScroll('#cards-listing', { scrollX: true, scrollY: false });
+        
+    </script>
+
+
+</body>
+</html>
