@@ -11,12 +11,13 @@ $(function(){
 
     // $body = $('body');
 
+    $('#scroller article').stacker(); 
 
     // create & innit the left/right carousel object
     // var carousel = new Carousel("#carousel");
     // carousel.init();
 
-    
+    var pulldown = new PullDown('#home', '#pull-down-area');
 
     // $('#pull-down-area').hammer().on('touch drag release', function(ev) {
     //     ev.gesture.preventDefault();
